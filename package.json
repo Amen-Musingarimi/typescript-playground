@@ -1,0 +1,22 @@
+{
+  "name": "typescript-playground",
+  "version": "1.0.0",
+  "description": "Practice TypeScript Repository: Sharpening my coding skills with TypeScript projects and exercises. 🚀 #TypeScript #CodingPractice #LearningJourney",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Amen-Musingarimi/typescript-playground.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Amen-Musingarimi/typescript-playground/issues"
+  },
+  "homepage": "https://github.com/Amen-Musingarimi/typescript-playground#readme",
+  "devDependencies": {
+    "typescript": "^5.2.2"
+  }
+}
