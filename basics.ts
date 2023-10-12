@@ -48,3 +48,14 @@ people = [
     age: 29,
   },
 ];
+
+// Type Inference - refers to how typescript get a type of  variable when you declare a variable even without specifying its type
+
+let course = 'React - The Complete Guide'; // Note that when we use let we can reassign a value to that value
+
+// course = 20; // Now when we try to reassign a number to course, typescript already associated that variable with a string so we get an error
+
+// Union Types - Allowing a variable to take more than one data type
+let product: string | number = 'Jordan J4';
+
+product = 1236; // See how we do not get an error here
