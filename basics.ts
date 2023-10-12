@@ -59,3 +59,29 @@ let course = 'React - The Complete Guide'; // Note that when we use let we can r
 let product: string | number = 'Jordan J4';
 
 product = 1236; // See how we do not get an error here
+
+// Type Elias
+type Student = {
+  name: string;
+  age: number;
+};
+
+let student: Student;
+
+student = {
+  name: 'Amen Takudzwa',
+  age: 28,
+};
+
+let students: Student[];
+
+students = [
+  {
+    name: 'Taku',
+    age: 28,
+  },
+  {
+    name: 'Amen',
+    age: 29,
+  },
+];
